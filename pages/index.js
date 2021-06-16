@@ -8,7 +8,7 @@ import robot from '../public/image.jpg'
 
 export default function Home() {
   const [loading, setLoading] = useState(false)
-  const [src, setSrc] = useState(robot)
+  const [src, setSrc] = useState(compu)
   
   useEffect(()=>{
     setInterval(()=>{
